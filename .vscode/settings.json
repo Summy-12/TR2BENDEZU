@@ -1,0 +1,4 @@
+{
+  "appService.defaultWebAppToDeploy": "/subscriptions/fd2abb63-e8aa-4262-a32c-1a26a2b76d16/resourceGroups/Re_paginaweb/providers/Microsoft.Web/sites/ConsultasAnimeSumm",
+  "appService.deploySubpath": "."
+}

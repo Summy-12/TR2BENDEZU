@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+   
+    /* Cambio de fuente para mayor compatibilidad */
+}
+
+.sidebar .logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    margin-bottom: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    display: block;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+.menu a:hover {
+    background-color: #1DB954;
+}
+
+.cuadro_anime {
+    width: 100%;
+    /* Cambio el ancho al 100% para que ocupe todo el ancho disponible */
+    max-width: 800px;
+    /* Establezco un ancho máximo para que no sea demasiado ancho en pantallas grandes */
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+#container1 {
+    text-align: center;
+}
+
+
+#anime-info {
+    display: none;
+    text-align: center;
+}
+
+
+
+#anime-description {
+    font-size: 15px;
+    margin-top: 10px;
+    text-align: justify;
+    padding: 5px;
+}
+
+#add-to-list-button {
+    display: none;
+    margin: 0 auto;
+}
+
+.btn1 {
+    display: none;
+    margin: 0 auto;
+}
+
+
+#container1 {
+    display: flex;
+}
+
+#sidebar {
+    background-color: black;
+    width: 200px;
+   
+    min-height: 100vh;
+    
+    color: white;
+    display: flex;
+    flex-direction: column;
+    background-color: #040404;
+    padding: 20px;
+    transition: width 0.3s;
+    overflow-y: auto;
+
+}
+
+#main-content {
+    flex: 1;
+    padding: 20px;
+    /
+}
+
+
+.navigation {
+    text-align: center;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+#anime-info img {
+    max-width: 340px; 
+    height: 340px; 
+    margin-bottom: 20px;
+}
+
+#anime-detalles{
+
+    display: none; padding: 20px;
+     background-color: #93c0c5; color: black;
+     text-align: justify;
+     
+}
+
+
+#anime-detalles {
+    font-size: 14px; 
+}
+
+#anime-detalles h2 {
+    font-size: 16x; 
+    text-align: center;
+}
+
+
+
+@media (max-width: 768px) {
+    #sidebar {
+        width: 100%;
+        min-width: 500px;
+       
+    }
+}
